@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: Mecha;
+  src: url(../src/assets/fonte/GemunuLibre-Light.ttf);
+}
+*{
+  font: Mecha, Arial;
+}
