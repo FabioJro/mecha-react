@@ -1,0 +1,18 @@
+.button {
+    
+    color: white;
+    font-size: 2rem;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 0.5rem;
+    width: 40%;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: red;
+    margin-left: 13rem;
+    padding-bottom: 0.5rem;
+    text-shadow: 2px 2px 2px #111;
+
+
+}

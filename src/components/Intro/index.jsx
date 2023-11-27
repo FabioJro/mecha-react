@@ -1,16 +1,16 @@
-import './intro.css';
+ import Style from'./intro.module.css';
 
-export default function Intro() {
+ export default function Intro() {
 
     return (
-        <main >
-            <section >
-                <h1 >MECHA <strong>START</strong></h1>
-                <p>
+        <main className= {Style.apresentacao}>
+            <section className = {Style.apresentacao_conteudo}>
+                 <h1 className = {Style.titulo} >MECHA <strong className = {Style.titulo2}>START</strong></h1>
+                 <p className ={Style.text_jogo}> 
                     Jogo baseado em estilo mecha turn base no qual vai trazer toda a costumisação de armas e acessorios para os seus person.
-                </p>
-                <a> Cadastre-se para jogar</a>
-            </section>
+                 </p>
+               Cadastre-se para jogar
+             </section>
         </main>
-    )
-}
+     )
+ }
