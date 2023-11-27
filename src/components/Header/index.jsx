@@ -1,17 +1,19 @@
 import Style from "./header.module.css";
+import { Link } from "react-router-dom";
 export default function Header() {
-    const menuNav = ["Home", "About us", "Login"];
+    const menuNav = ["Home", "About-us", "Login"];
 
     return (
         <nav className={Style.nav}>
             <div >
                 <ul className={Style.ul}>
                     {
-                        menuNav.map((link) => (
-                            <div>
-                                {console.log(link)}
-                                {link}
-                            </div>
+                        menuNav.map((texto) => (
+                            <Link to={`/${texto.toLowerCase()}`}>
+                                <li >
+                                    <p className = {Style.p}>{texto}</p>
+                                </li>
+                            </Link>
                         ))
                     }
                 </ul>
