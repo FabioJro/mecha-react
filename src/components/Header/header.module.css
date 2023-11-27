@@ -1,0 +1,16 @@
+ .nav{
+    
+    padding: 3% 0% 0% 10%;   
+
+}
+
+.ul{
+
+    display: flex;
+    gap: 4rem;
+    font-size: 3rem;
+    color: red;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #111;
+    
+} 

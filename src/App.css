@@ -5,7 +5,7 @@
 
 .background {
 
-  background-image: url('../public/mecha.jpg');
+  background-image: url('../src/assets/Imagem/mecha.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
