@@ -1,8 +1,9 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Home from './Page/Home'
-import Cadastro from './Page/Cadastro'
-import Login from './Page/Login'
+import Home from './Page/Home';
+import Cadastro from './Page/Cadastro';
+import Login from './Page/Login';
+import AboutUs from './Page/AboutUs';
 
 
 
@@ -12,8 +13,10 @@ export default function App() {
      <BrowserRouter>  
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Cadastro" element={<Cadastro />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     
