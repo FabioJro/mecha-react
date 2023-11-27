@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Style from "./header.module.css";
 export default function Header() {
     const menuNav = ["Home", "About us", "Login"];
@@ -8,7 +7,7 @@ export default function Header() {
             <div >
                 <ul className={Style.ul}>
                     {
-                        menuNav.map((texto) => (
+                        menuNav.map((link) => (
                             <div>
                                 {console.log(link)}
                                 {link}
