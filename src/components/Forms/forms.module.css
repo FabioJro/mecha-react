@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+
+}
+
+
+
+.label {
+
+    color: white;
+    font-size: 2rem;
+
+
+}
+
+.input {
+
+
+    background: transparent;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+
+
+
+
+}
+
+.sexo {
+
+    background: transparent;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Mecha', sans-serif;
+    color: white;
+
+
+}
+
+.teste {
+
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-bottom: 3rem;
+    
+}
+
+.sx {
+
+
+    width: 20rem;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 2px 2px #111;
+
+}
+
+.butcadastro {
+
+    background: transparent;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+
+    margin: 0 auto;
+
+
+}
+
+.titulo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 2px #111;
+
+
+}
+
+.titulo2 {
+    color: rgb(253, 0, 0);
+}
+
+.butcadastro:hover {
+
+
+    color: red;
+
+}
+
+
+@media (max-width : 1558px) {
+
+    .titulo {
+
+        margin-left: 15rem;
+    }
+
+
+}
+
+
+@media(max-width:774px) {
+    .container {
+        margin-right: 10rem;
+
+    }
+
+    .teste {
+        margin-right: 10rem;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .sexo {
+        width: 80%;
+    }
+
+    .label {
+        width: 100%;
+    }
+}
+
+@media(max-width:592px) {}

@@ -1,21 +1,47 @@
- .nav {
+a {
+    text-decoration: none !important;
+}
 
-     padding: 3% 0% 0% 10%;
 
- }
 
- .ul {
+.ul {
 
-     display: flex;
-     gap: 4rem;
-     font-size: 3rem;
-     list-style-type: none;
-     
-    
- }
- .p{
-    text-decoration: none;
+    display: flex;
+    gap: 4rem;
+    font-size: 3rem;
+
+
+}
+
+.li {
+    list-style-type: none;
+
+}
+
+.p {
+
     color: red;
-    
- }
 
+}
+
+.p:hover {
+
+
+    color: white;
+
+}
+.cabecalho{
+    width: 90%;
+}
+
+@media (max-width : 1032px) {
+
+    
+
+
+}
+
+@media (max-width: 455px) {
+
+    
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Mecha;
+    src: url(../../assets/fonte/GemunuLibre-Light.ttf);
+  }
+
 .button {
     
     color: white;
@@ -13,6 +18,8 @@
     margin-left: 13rem;
     padding-bottom: 0.5rem;
     text-shadow: 2px 2px 2px #111;
+    font-family: Mecha,Arial;
+    cursor: pointer;
 
 
 }

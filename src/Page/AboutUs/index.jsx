@@ -1,11 +1,16 @@
 
 import React from 'react'
 import Header from '../../components/Header'
+import About from '../../components/About'
+import Style from './about.module.css'
 
 const index = () => {
   return (
-    <div>
+    <div className={Style.about}>
+      <div>
         <Header />
+        <About />
+      </div>
     </div>
   )
 }
