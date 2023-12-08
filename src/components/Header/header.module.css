@@ -5,7 +5,7 @@ a {
 
 
 .ul {
-
+    width: 100%;
     display: flex;
     gap: 4rem;
     font-size: 3rem;
@@ -31,17 +31,30 @@ a {
 
 }
 .cabecalho{
+
     width: 90%;
 }
 
-@media (max-width : 1764px) {
+@media (max-width : 1071px){
 
-        
+    .ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width : 630px){
 
-
+    .ul{
+        display: flex;
+        justify-content: center;
+    }
 }
 
-@media (max-width: 455px) {
+@media (max-width : 480px){
 
-    
+    .ul{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+    }
 }

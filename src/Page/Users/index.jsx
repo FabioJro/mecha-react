@@ -6,13 +6,14 @@ import Style from './user.module.css'
 
 const index = () => {
 
-   
+
 
     return (
 
         <div className={Style.user}>
-            <div>
-                <Header />
+
+            <Header />
+            <div className={Style.containerconteudo}>
                 <Usuario />
             </div>
         </div>

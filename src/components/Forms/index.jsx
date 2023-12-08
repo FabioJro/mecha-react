@@ -48,7 +48,9 @@ const Index = () => {
                     <option className={Style.sx} value="Feminino">Feminino</option>
                     <option className={Style.sx} value="Nao Binario" >Nao Binario</option>
                 </select>
+                <div className={Style.containerbutton}>
                 <button onClick={cadastro} className={Style.butcadastro}>Cadastrar</button>
+                </div>
             </form>
 
         </div>

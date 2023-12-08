@@ -1,8 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
     gap: 1rem;
     margin-top: 2rem;
 
@@ -16,7 +15,6 @@
     color: white;
     font-size: 2rem;
 
-
 }
 
 .input {
@@ -29,9 +27,7 @@
     font-family: 'Mecha', sans-serif;
     font-size: 1.5rem;
     color: white;
-
-
-
+    width: 70%;
 
 }
 
@@ -44,7 +40,7 @@
     font-size: 1.5rem;
     font-family: 'Mecha', sans-serif;
     color: white;
-
+    width: 70%;
 
 }
 
@@ -54,13 +50,13 @@
     flex-direction: column;
     gap: .7rem;
     margin-bottom: 3rem;
-    
+
 }
 
 .sx {
 
 
-    width: 20rem;
+
     border-radius: 0.5rem;
     border-color: red;
     height: 2rem;
@@ -90,7 +86,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     font-size: 4rem;
     color: white;
     text-shadow: 2px 2px 2px #111;
@@ -109,39 +105,38 @@
 
 }
 
+.containerbutton {
 
-@media (max-width : 1558px) {
-
-    .titulo {
-
-        margin-left: 15rem;
-    }
-
-
+    display: flex;
+    justify-content: center;
+    width: 70%;
 }
 
 
-@media(max-width:774px) {
-    .container {
-        margin-right: 10rem;
+@media (max-width : 842px){
 
+    .input{
+        width: auto;
     }
 
-    .teste {
-        margin-right: 10rem;
+    .sexo{
+        width: auto;
     }
-
-    .input {
-        width: 80%;
+    .containerbutton{
+        width: auto;
     }
-
-    .sexo {
-        width: 80%;
-    }
-
-    .label {
-        width: 100%;
+}
+@media (max-width : 620px){
+    .titulo{
+        font-size: 3rem;
     }
 }
 
-@media(max-width:592px) {}
+@media (max-width : 490px){
+    .titulo{
+        font-size: 2rem;
+    }
+    .label{
+        font-size: 1.5rem;
+    }
+}

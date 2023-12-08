@@ -1,12 +1,11 @@
 .titulo {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+       
     font-size: 4rem;
     color: white;
     text-shadow: 2px 2px 2px #111;
-    margin-right: 19.5rem;
+    padding-left: .5rem;
+   
 
 }
 
@@ -26,66 +25,66 @@
 
 .apresentacao {
 
-    flex: 1;
+   
     display: flex;
-    width: 50%;
-    padding-bottom: 10rem;
-    padding-left: 9rem;
+    width: 80%;
+  
 
 }
 
 .apresentacao_conteudo {
 
-    margin-top: 10rem;
-    width: 45rem;
+   
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 3rem;
 
 }
 
-@media (max-width: 901px) {
+@media (max-width : 690px){
 
-    .apresentacao {
-        padding-left: 4rem;
-    }
+   .titulo{
+       font-size: 3rem;
+   }
 
+   .text_jogo{
+       font-size: 1.7rem;
+       margin: auto;
+   }
+
+   
+
+   .apresentacao{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
 }
-
-@media (max-width: 691px) {
-
-    .text_jogo {
-
-        margin-left: 0.5rem;
-    }
-
-}
-
-@media (max-width: 400px) {
-
-    .apresentacao {
-        width: 100%;
-        padding: 0;
-        align-items: center;
-
-    }
-
-    .apresentacao_conteudo {
-
-        margin: auto auto;
-        width: 100%;
-
-    }
-
-    .titulo {
-
-        align-items: start;
-        justify-content: unset;
+@media (max-width : 510px){
+    .titulo{
         font-size: 2rem;
-        margin: 0 0 0 .5rem;
     }
 
-    .text_jogo {
-        font-size: 1rem;
-    }
+}
+@media (max-width : 480px){
+
+   .titulo{
+       font-size: 2rem;
+   }
+
+   .text_jogo{
+       font-size: 1.5rem;
+       margin: auto;
+   }
+
+   
+
+   .apresentacao{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
 }

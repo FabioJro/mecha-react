@@ -5,11 +5,12 @@ import Style from './home.module.css'
 
 const index = () => {
   return (
-    <div className ={Style.home}>
-      <div>
-        <Header />
+    <div className={Style.home}>
+
+      <Header />
+      <div className={Style.containerconteudo}>
         <Intro />
-      </div>3
+      </div>
     </div>
   )
 }
