@@ -21,11 +21,54 @@ Caso queira verificar o modelo original no site : https://www.figma.com/communit
 
 ## Requisitos
 
-1. Projeto no Figma da pagina inicial e de um formulário
-2. Implementação do design da página inicial e de um form
-3. Deixar aplicação responsiva
-4. Implementar Menu de navegação da página inicial
-5. Implementar navegação entre páginas
+1. Responsividade : 
+
+ 
+
+Utilização de media queries para controlar o layout em diferentes resoluções. 
+Utilização efetiva do conceito de Grid Layout para organizar a estrutura da página. 
+O layout deve ser responsivo e se adaptar bem a diferentes tamanhos de tela usando Grid Layout. 
+Implementar responsividade no menu de navegação 
+Divida o projeto em componentes reutilizáveis. 
+Evite duplicação de código. 
+ 
+
+2. Navegação : 
+
+ 
+
+A navegação entre as telas (Cadastro e Listagem) deve ser fácil e intuitiva. 
+Os botões ou links de navegação devem funcionar corretamente. 
+Divida o projeto em componentes reutilizáveis. 
+Evite duplicação de código. 
+Implemente rotas usando React Router 
+ 
+
+3. Tela de Cadastro : 
+
+ 
+
+Formulário de cadastro deve conter campos obrigatórios (ex: nome, descrição). 
+Validação de formulário: impedir o envio se campos obrigatórios não estiverem preenchidos. 
+Lógica de cadastro deve adicionar itens à lista no localStorage. 
+Divida o projeto em componentes reutilizáveis. 
+Evite duplicação de código. 
+Utilize props para passar dados entre componentes. 
+Utilize pelo menos dois dos principais hooks do React (ex: useState, useEffect, useContext).. 
+ 
+
+ 
+
+4. Tela de Listagem : 
+
+ 
+
+Lista deve ser exibida corretamente na tela. 
+Itens cadastrados devem ser recuperados do localStorage e exibidos na lista. 
+Divida o projeto em componentes reutilizáveis. 
+Evite duplicação de código. 
+Utilize props para passar dados entre componentes. 
+Utilize pelo menos dois dos principais hooks do React (ex: useState, useEffect, useContext).. 
 
 
 ## Tecnologias
