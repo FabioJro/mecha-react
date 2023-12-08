@@ -23,3 +23,20 @@
 
 
 }
+
+@media (max-width : 843px){
+
+  .button{
+      
+     font-size: 1.2rem; 
+     margin-left: 35%;
+  }
+}
+@media (max-width : 480px){
+
+  .button{
+      
+     font-size: 0.8rem; 
+     margin-left: 35%;
+  }
+}

@@ -7,8 +7,9 @@ import Style from './about.module.css'
 const index = () => {
   return (
     <div className={Style.about}>
-      <div>
+      
         <Header />
+        <div className={Style.containerconteudo}>
         <About />
       </div>
     </div>
